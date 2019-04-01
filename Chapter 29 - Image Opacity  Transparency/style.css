@@ -1,0 +1,29 @@
+.img
+{
+	background-image:url(1.jpg);
+	background-repeat:no-repeat;
+	width:100%;
+	height:400px;
+	position:absolute;
+}
+.trans-box
+{
+	opacity:0.5;
+	width:40%;
+	height:100px;
+	position:relative;
+	margin-left:150px;
+	margin-top:150px;
+}
+.trans-box:hover
+{
+	opacity:1;
+}
+.para
+{
+	border:2px solid grey;
+	width:40%;
+	text-align:center;
+	height:100px;
+	font-weight:bold;
+}

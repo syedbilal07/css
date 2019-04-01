@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta charset="UTF-8">
+	<script>
+	function RemoveElement()
+	{
+	document.getElementById("imgbox1").style.display="none"
+	}
+	function HideElement()
+	{
+	document.getElementById("imgbox2").style.visibility="hidden"
+	}
+	function ResetElement()
+	{
+	document.getElementById("imgbox1").style.display="block"
+	document.getElementById("imgbox2").style.visibility="visible"
+	}
+	</script>
+	</head>
+		<body>
+		<h1>The Display Property</h1>
+		<div class="images">
+		<div class="imgbox" id="imgbox1">
+		<img src="1.jpg" width="150px" height="150px" style="border:3px solid grey;" /><br />
+		<input type="button" value="Remove" onClick="RemoveElement()">
+		</div>
+		<div class="imgbox" id="imgbox2" style="text-align:center;margin:auto;">
+		<img src="2.jpg" width="150px" height="150px" style="border:3px solid navy;display:inline-block;" /><br />
+		<input type="button" value="Hide" onClick="HideElement()">
+		</div>
+		<div class="imgbox" id="imgbox3" style="text-align:center;margin:auto;">
+		<img src="3.jpg" width="150px" height="150px" style="border:3px solid green;display:inline-block;" /><br />
+		<input type="button" value="Reset" onClick="ResetElement()">
+		</div>
+		</div>
+		
+		</body>
+</html>
+	

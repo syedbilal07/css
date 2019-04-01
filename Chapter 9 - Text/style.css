@@ -1,0 +1,34 @@
+.one
+{
+	color:blue;
+	text-align:left;
+	text-transform:uppercase;
+	text-indent:50px;
+	letter-spacing:20px;
+	line-height:10px;
+	letter-spacing:10px;
+}
+.two
+{
+	color:red;
+	text-align:right;
+	text-transform:lowercase;
+	text-indent:80px;
+	letter-spacing:10px;
+	line-height:5px;
+	letter-spacing:10px;
+}
+.three
+{
+	color:green;
+	text-align:right;
+	text-transform:lowercase;
+	text-indent:80px;
+	word-spacing:20px;
+	direction:rtl;
+}
+.four
+{
+	color:pink;
+	direction:rtl;
+}

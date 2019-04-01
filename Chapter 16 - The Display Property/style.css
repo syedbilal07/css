@@ -1,0 +1,14 @@
+.images
+{
+	width:500px;
+	display:inline-block;
+	float:left;
+	margin-left:600px;
+	
+}
+.imgbox 
+{
+    float: left;
+    text-align: center;
+
+}

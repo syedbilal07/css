@@ -1,0 +1,33 @@
+.floating-box
+{
+	border: 3px solid #73AD21;  
+	float:left;
+	width:100px;
+	height:100px;
+	margin:10px;
+}
+.after-box
+{
+	border: 3px solid red;  
+	float:left;
+	width:100px;
+	height:100px;
+	margin:10px;
+	clear:left;
+}
+.inline-block
+{
+	border: 3px solid blue;  
+	float:left;
+	width:100px;
+	height:100px;
+	margin:10px;
+}
+.inline
+{
+	display:inline-block;
+	border: 3px solid green; 
+	margin:10px;
+	width:100px;
+	height:100px;
+}

@@ -1,0 +1,25 @@
+.left
+{
+	background-color:red;
+	margin-left:50px;
+}
+.right
+{
+	background-color:skyblue;
+	margin-right:50px;
+}
+.container
+{
+	background-color:silver;
+	margin:100px;
+}
+.parent
+{
+	margin:inherit;
+}
+div
+{
+	margin:auto;
+	width:300px;
+	bordeR:3px solid red;
+}

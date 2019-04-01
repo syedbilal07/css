@@ -1,0 +1,29 @@
+p::first-line
+{
+	font-variant:small-caps;
+	color:blue;
+}
+p::first-letter
+{
+	font-variant:small-caps;
+	color:red;
+	font-size:25px;
+}
+h1::before
+{
+	content:url(smiley.gif);
+}
+h1::after
+{
+	content:url(smiley.gif);
+}
+::-moz-selection
+{
+	background-color:yellow;
+	color:red;
+}
+::selection
+{
+	background-color:yellow;
+	color:red;
+}

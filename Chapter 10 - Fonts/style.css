@@ -1,0 +1,22 @@
+.courier
+{
+	font-family:courier;
+	font-size:30px;
+}
+.italic
+{
+	font-style:italic;
+	font-size:35px;
+}
+.em
+{
+	font-size:3em;
+}
+.bolder
+{
+	font-weight:bolder;
+}
+.shorthand
+{
+	font:italic 20px verdana;
+}

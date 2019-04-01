@@ -1,0 +1,23 @@
+ul.one
+{
+	list-style-image:url(image.jpg);
+	list-style-position:inside;
+}
+ul.two
+{
+	list-style:square outside url(image.jpg);
+}
+ul.three
+{
+	background-color:#3399ff;
+	margin:5px;
+	font-size:20px;
+	font-family:verdana;
+	padding: 20px;
+}
+ul.three li
+{
+	padding:3px;
+	background:#cce5ff;
+	margin:5px;
+}

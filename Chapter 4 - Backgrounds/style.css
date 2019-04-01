@@ -1,0 +1,8 @@
+body
+{
+	background-color:skyblue;
+	background-image:url(image.jpg);
+	background-repeat:none;
+	background-attachment:fixed;
+	background-position:right top;
+}

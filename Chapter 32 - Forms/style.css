@@ -1,0 +1,98 @@
+/*.form
+{
+	border-radius:5px;
+	background-color: #f2f2f2;
+	padding:20px;	
+	margin:10px;
+}
+input[type=text],  select
+{
+	border-radius:5px;
+	background-color:white;
+	box-sizing:border-box;
+	width:100%;
+	height:50px;
+	border: 1px solid #ccc;
+	padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+input[type=submit]
+{
+	width:100%;
+	background-color:#4CAF50;
+	height:80px;
+}
+input[type=submit]:hover
+{
+	background-color:#45a049;
+}*/
+input[type=text]
+{
+	width:100%;
+	padding:10px;
+	margin:10px;
+	box-sizing:border-box;
+	border-radius:4px;
+	border-bottom:2px solid red;
+	border-top:2px solid blue;
+	border-left:2px solid green;
+	border-right:2px solid green;
+	background-color:#3CBC8D;
+	color:green;
+	outline:none;
+	background-image:url(search.png);
+	background-repeat:no-repeat;
+	background-position:2px 7px;
+	padding:12px 20px 12px 40px;
+}
+input[type=text]:focus
+{
+	background-color: lightblue;
+	border: 3px solid #555;
+}
+input[type=text].animate
+{
+	width:10%;
+	background-color:white;
+	background-image:url(search.png);
+	background-repeat:no-repeat;
+	background-size:20px 20px;
+	color:black;
+	padding:12px 20px 12px 40px;
+	transition:0.4s ease-in;
+	width:10%;
+}
+input[type=text].animate:focus
+{
+	background-color:pink;
+	border:3px solid green;
+	transition:0.4s ease-out;
+	width:100%;
+}
+textarea
+{
+	background-color:#f8f8f8;
+	color:green;
+	width:80%;
+	height:100px;
+	border-radius:4px;
+	resize:none;
+}
+select
+{
+	width:100%;
+	background-color:#f8f8f8;
+	border-radius:4px;
+	height:50px;
+	border:none;
+}
+input[type=button], input[type=submit]
+{
+	background-color:#4CAF50;
+	border:none;
+	width:20%;
+	height:50px;
+	color:white;
+	cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.one
+{
+	width:500px;
+	margin:auto;
+	border:1px solid green;
+	font-size:30px;
+}
+.two
+{
+	max-width:500px;
+	margin:auto;
+	border:1px solid red;
+	font-size:30px;
+}

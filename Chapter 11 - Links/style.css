@@ -1,0 +1,27 @@
+a:link
+{
+	color:red;
+	text-decoration:none;
+	background-color:red;
+	padding:10px;
+	margin:10px;
+	display:inline-block;
+}
+a:visited
+{
+	color:green;
+	text-decoration:none;
+	background-color:red;
+}
+a:hover
+{
+	color:gray;
+	text-decoration:underline;
+	background-color:red;
+}
+a:active
+{
+	color:pink;
+	text-decoration:overline;
+	background-color:red;
+}

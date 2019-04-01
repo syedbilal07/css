@@ -1,0 +1,16 @@
+div p
+{
+	background-color:silver;
+}
+div > p 
+{
+	background-color:aqua;
+}
+div + p 
+{
+	background-color:green;
+}
+div ~ p 
+{
+	background-color:skyblue;
+}

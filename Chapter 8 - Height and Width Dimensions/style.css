@@ -1,0 +1,26 @@
+.normal
+{
+	background-color:skyblue;
+	width:200px;
+	height:100px;
+}
+.max-width
+{
+	max-width:50px;
+	background-color:green;
+}
+.max-height
+{
+	max-height:50px;
+	background-color:silver;
+}
+.min-width
+{
+	min-width:50px;
+	background-color:red;
+}
+.min-height
+{
+	min-height:50px;
+	background-color:skyblue;
+}
